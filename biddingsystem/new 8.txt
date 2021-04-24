@@ -1,0 +1,27 @@
+
+http://localhost:8080/addUser
+
+{
+	"userId":"user2",
+	"userName":"niket",
+	"password":"12345"
+}
+
+http://localhost:8080/addVendor
+{
+	"vendorId":"vendor1",
+	"vendorName":"ven",
+	"password":"12345"
+}
+
+http://localhost:8080/addProduct
+{
+	"productId":"product1",
+	"vendorId":"vendor1",
+	"basePrice":"100",
+	"productName":"xyz",
+	"startTimeForBid":"2021-04-21T13:34:00.000",
+	"endTimeForBid":"2021-04-23T13:34:00.000"
+}
+
+http://localhost:8080/addBidding
